@@ -1,8 +1,8 @@
 # OneHotEncoding
 one hot encoding using R data.table package
 
-The R funcitons allow to cast the text values of a column or more columns as new variables with 0/1 encoding.
-It handles missingness, text string as values seperated by another text string (e.g. "/" or "; ") or factorial variables.
+The R functoons allows to cast text/string/factor values of a column(s) as new variables with 0/1 encoding.
+It handles missingness, text string values seperated by another text string (e.g. "/" or "; ") or factorial variables.
 
 The arguments of the function are:
  - datatable: a data frame or data table initial object containing features you want to cast and encode
