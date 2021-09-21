@@ -12,7 +12,7 @@ The arguments of the function are:
  - factorise = F: 'factorise' == TRUE means that the finally produced oneHot encoded columns containing 0s and 1s will be coerced into factors, if false they will be numeric
 
 ```R
-NOT RUN Example:
+Example:
 DF = data.frame(
   aColumn=rep(c("f", "b", "c"), 100000),
   xColumn=rep(c("N/W", "W", "R"), 100000), 
